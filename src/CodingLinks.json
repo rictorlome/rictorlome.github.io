@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Pupil",
+        "category": "Game",
+        "live": "http://35.245.193.227/",
+        "github": "https://github.com/rictorlome/pupil",
+        "thumbnail": null,
+        "description": ""
+    },
+    {
+        "name": "Minesweeper",
+        "category": "Game",
+        "live": "http://www.thingsishow.com/minesweeper",
+        "github": "https://github.com/rictorlome/minesweeper",
+        "thumbnail": "https://raw.githubusercontent.com/rictorlome/minesweeper/master/minesweeper_screenshot.png",
+        "description": ""
+    }
+]
