@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import CodingExamples from './CodingExamples'
+import CodingLinks from '../CodingLinks.json'
+import CodingExample from './CodingExample'
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      Hello
-      <CodingExamples />
+      {CodingLinks.map(link => <CodingExample key={link.name} {...link} />)}
     </div>
   );
 }
