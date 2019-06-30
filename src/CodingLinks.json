@@ -5,7 +5,7 @@
         "live": "http://35.245.193.227/",
         "github": "https://github.com/rictorlome/pupil",
         "thumbnail": "https://rlomethumbnails.s3.amazonaws.com/pupilthumbnail.png",
-        "description": "Pupil is a bitboard based chess engine and AI written in golang. It was optimized for correctness and performance, passing perft of 100s of millions of positions in under 5 seconds. The evaluation engine is pretty simplistic, but the engine is still quite strong."
+        "description": "Pupil is a bitboard based chess engine and AI written in Go. It was optimized for correctness and performance, passing initial perft tests up to depth 6 (over 100,000,000 positions) in under 5 seconds. The evaluation logic is pretty simplistic, but the engine is still quite strong."
     },
     {
         "name": "Slim",
@@ -13,7 +13,7 @@
         "live": "http://getonslim.com",
         "github": "https://github.com/rictorlome/slim",
         "thumbnail": "https://rlomethumbnails.s3.amazonaws.com/slimthumbnail.png",
-        "description": "Slim is a Slack imitation chat app built with Ruby on Rails on the backend, and React-Redux on the front. Action Cable is used for live chat, updating channels' participation counts, and notifying users of new direct messages. Give it a try!"
+        "description": "Slim is a Slack imitation chat app built with Ruby on Rails, and React-Redux. Action Cable is used for live chat, updating channels' participation counts, and notifying users of new direct messages. There's also a chatbot named Slimbot, backed by Google's DialogFlow, which uses machine learning to interpret users' messages. Give it a try!"
     },
     {
         "name": "Minesweeper",
@@ -29,7 +29,7 @@
         "live": "http://www.thingsishow.com/narwhal-olympics",
         "github": "https://github.com/rictorlome/whale-olympics",
         "thumbnail": "https://rlomethumbnails.s3.amazonaws.com/narwhalthumbnail.png",
-        "description": "Narwhal Olympics is a vanilla JS browser game animated entirely with canvas and spritesheets. It features a custom physics engine to determine the narwhal's motion through space. Feel free to take the narwhal out for a spin. Watch out for the ocean bottom!"
+        "description": "Narwhal Olympics is a library-free, vanilla JS browser game animated entirely with canvas and spritesheets. It features a custom physics engine to determine the narwhal's motion through space. Feel free to take the narwhal out for a spin. Watch out for the ocean bottom!"
     },
     {
         "name": "Penrose",

@@ -17,6 +17,7 @@
 }
 
 .coding-example-thumbnail {
+    cursor: pointer;
     width: auto;
     margin-top: 30px;
 }
