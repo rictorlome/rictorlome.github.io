@@ -8,11 +8,12 @@ interface IProps {
     "live": string;
     "github": string;
     "thumbnail": string;
-    "thumbnailHeight"?: number;
+    "thumbnailClass"?: string;
     "description": string;
 }
 
 const CodingExample: React.FC<IProps> = (props) => {
+    const imageClassName = "coding-example-thumbnail" + " " + props.thumbnailClass
     return (
         <section className="coding-example-section">
             <div className="coding-example-text">
@@ -26,7 +27,7 @@ const CodingExample: React.FC<IProps> = (props) => {
             </div>
             <div className="coding-example-img">
                 <a target="_blank" rel="noopener noreferrer" href={props.live}>
-                    <img alt={props.name} style={{ height: props.thumbnailHeight }} className="coding-example-thumbnail" src={props.thumbnail} />
+                    <img alt={props.name} className={imageClassName} src={props.thumbnail} />
                 </a>
             </div>
         </section>
@@ -34,7 +35,7 @@ const CodingExample: React.FC<IProps> = (props) => {
 }
 
 CodingExample.defaultProps = {
-    thumbnailHeight: 400
+    thumbnailClass: "medium"
 }
 
 export default CodingExample

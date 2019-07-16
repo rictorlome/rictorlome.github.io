@@ -37,7 +37,7 @@
         "live": "http://www.thingsishow.com/penrose",
         "github": "https://github.com/rictorlome/penrose",
         "thumbnail": "https://rlomethumbnails.s3.amazonaws.com/penrosethumbnail.png",
-        "thumbnailHeight": 300,
+        "thumbnailClass": "shorter",
         "description": "An implementation of Penrose tiling, written using the p5.js library."
     },
     {
@@ -62,7 +62,7 @@
         "live": "http://www.thingsishow.com/bugs-problem",
         "github": "https://github.com/rictorlome/bugs-problem",
         "thumbnail": "https://rlomethumbnails.s3.amazonaws.com/bugsproblemthumbnail.png",
-        "thumbnailHeight": 300,
+        "thumbnailClass": "shorter",
         "description": "Little visualization of the classic four bugs problem tessellated on a plane."
     }
 ]

@@ -7,6 +7,12 @@
     padding-bottom: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+    .coding-example-section {
+        flex-direction: column;
+    }
+}
+
 .coding-example-link {
     margin-right: 15px;
 }
@@ -16,8 +22,30 @@
     width: 400px;
 }
 
+@media only screen and (max-width: 600px) {
+    .coding-example-desc {
+        width: 90%
+    }
+}
+
 .coding-example-thumbnail {
     cursor: pointer;
     width: auto;
     margin-top: 30px;
 }
+
+.shorter {
+    height: 300px;
+}
+
+.medium {
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .coding-example-thumbnail {
+        width: 90%;
+        height: auto;
+    }
+}
+
