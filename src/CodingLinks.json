@@ -2,7 +2,7 @@
     {
         "name": "Pupil",
         "category": "Game",
-        "live": "http://35.245.193.227/",
+        "live": "https://pupil.fly.dev/",
         "github": "https://github.com/rictorlome/pupil",
         "thumbnail": "https://rlomethumbnails.s3.amazonaws.com/pupilthumbnail.png",
         "description": "Pupil is a bitboard based chess engine and AI written in Go. It was optimized for correctness and performance, passing initial perft tests up to depth 6 (over 100,000,000 positions) in under 5 seconds. The evaluation logic is pretty simplistic, but the engine is still quite strong."
