@@ -1,0 +1,115 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fdfdfc;
+  color: #2d2d2d;
+  line-height: 1.75;
+  padding: 80px 32px 120px;
+}
+
+main {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 44px;
+  opacity: 0.85;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #1c1c1c;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+.socials {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.socials a {
+  display: block;
+  color: #aaa;
+  transition: color 0.15s;
+}
+
+.socials a:hover {
+  color: #2d2d2d;
+}
+
+.socials svg {
+  display: block;
+  fill: currentColor;
+}
+
+a {
+  color: #2d2d2d;
+  text-decoration-color: #d0d0d0;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s;
+}
+
+a:hover {
+  text-decoration-color: #2d2d2d;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 16px;
+  font-size: 15px;
+  color: #555;
+}
+
+ul ul {
+  margin-top: 6px;
+  list-style: circle;
+  color: #777;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.55;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li > ul {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 48px 24px 80px;
+  }
+}
